@@ -64,4 +64,4 @@ defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock "tilesize" -int "48"
 
 # Configure Textedit to by default not use rich text
-defaults write com.apple.TextEdit "RichText" -bool false
+defaults write com.apple.TextEdit RichText -int 0
