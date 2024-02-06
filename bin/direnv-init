@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "dotenv" > ./.envrc
+direnv allow ./.envrc
+echo "direnv configured"

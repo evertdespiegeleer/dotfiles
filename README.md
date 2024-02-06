@@ -1,4 +1,6 @@
-# holman does dotfiles
+# evertdespiegeleer does dotfiles
+
+This is a fork of [holman does dotfiles](https://github.com/holman/dotfiles)
 
 Your dotfiles are how you personalize your system. These are mine.
 
