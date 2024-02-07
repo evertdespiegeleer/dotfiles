@@ -4,17 +4,23 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
 tap 'derailed/k9s'
 
+# zsh plugins
+brew 'powerlevel10k'
+brew 'zsh-autosuggestions'
+
+# dev stuff
 brew 'spaceman-diff'
 brew 'wget'
-brew 'yt-dlp'
 brew 'derailed/k9s/k9s'
 brew 'kubernetes-cli'
 brew 'nvm'
 brew 'commitizen'
-brew 'powerlevel10k'
-brew 'zsh-autosuggestions'
 brew 'direnv'
 
+# other stuff
+brew 'yt-dlp'
+
+# apps
 cask 'google-chrome-canary'
 cask 'notion'
 cask 'sonos'
