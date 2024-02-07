@@ -1,1 +1,1 @@
-eval "$(direnv hook zsh)"
+export PATH="/opt/homebrew/opt/direnv/bin:$PATH"
