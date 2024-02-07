@@ -8,14 +8,19 @@ tap 'derailed/k9s'
 brew 'powerlevel10k'
 brew 'zsh-autosuggestions'
 
-# dev stuff
+# Dev stuff
 brew 'spaceman-diff'
 brew 'wget'
 brew 'derailed/k9s/k9s'
 brew 'kubernetes-cli'
-brew 'nvm'
 brew 'commitizen'
 brew 'direnv'
+# Node
+brew 'nvm'
+# Python
+brew 'pyenv'
+brew 'poetry'
+brew 'make'
 
 # other stuff
 brew 'yt-dlp'
@@ -43,3 +48,4 @@ cask 'pika'
 cask 'ngrok'
 cask 'iterm2'
 cask 'rescuetime'
+cask 'ollama'

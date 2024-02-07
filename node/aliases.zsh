@@ -1,0 +1,1 @@
+alias clear-node-modules="npx rimraf --glob **/node_modules"
