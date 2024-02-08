@@ -15,6 +15,7 @@ brew 'derailed/k9s/k9s'
 brew 'kubernetes-cli'
 brew 'commitizen'
 brew 'direnv'
+brew 'jq'
 # Node
 brew 'nvm'
 # Python
