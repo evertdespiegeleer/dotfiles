@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
 tap 'derailed/k9s'
+tap 'oven-sh/bun'
 
 # zsh plugins
 brew 'powerlevel10k'
@@ -18,6 +19,7 @@ brew 'direnv'
 brew 'jq'
 # Node
 brew 'nvm'
+brew 'bun'
 # Python
 brew 'pyenv'
 brew 'poetry'
