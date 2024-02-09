@@ -17,6 +17,7 @@ brew 'kubernetes-cli'
 brew 'commitizen'
 brew 'direnv'
 brew 'jq'
+brew 'gitlab-ci-local'
 # Node
 brew 'nvm'
 brew 'bun'
@@ -27,6 +28,7 @@ brew 'make'
 
 # other stuff
 brew 'yt-dlp'
+brew 'openssl'
 
 # apps
 cask 'google-chrome-canary'
