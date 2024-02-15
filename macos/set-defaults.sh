@@ -65,3 +65,6 @@ defaults write com.apple.dock "tilesize" -int "48"
 
 # Configure Textedit to by default not use rich text
 defaults write com.apple.TextEdit RichText -int 0
+
+# Long press keys for accents
+defaults write -g ApplePressAndHoldEnabled -bool true

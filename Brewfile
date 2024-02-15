@@ -18,6 +18,9 @@ brew 'commitizen'
 brew 'direnv'
 brew 'jq'
 brew 'gitlab-ci-local'
+brew 'openssl'
+brew 'tinyproxy'
+brew 'netcat'
 # Node
 brew 'nvm'
 brew 'bun'
@@ -28,7 +31,7 @@ brew 'make'
 
 # other stuff
 brew 'yt-dlp'
-brew 'openssl'
+brew 'ffmpeg'
 
 # apps
 cask 'google-chrome-canary'
@@ -54,3 +57,6 @@ cask 'ngrok'
 cask 'iterm2'
 cask 'rescuetime'
 cask 'ollama'
+cask 'transmission'
+cask 'dbeaver-community'
+cask 'figma'
