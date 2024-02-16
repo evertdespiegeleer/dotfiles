@@ -21,6 +21,9 @@ brew 'gitlab-ci-local'
 brew 'openssl'
 brew 'tinyproxy'
 brew 'netcat'
+# iOS
+brew 'fastlane'
+brew 'cocoapods'
 # Node
 brew 'nvm'
 brew 'bun'
