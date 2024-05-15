@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Downloads a song from youtube and adds it to the current music library
+
+TEMP=$(mktemp -d)
+yt-dlp -x --audio-format aac --embed-thumbnail --embed-metadata -o "${TEMP}/song.%(ext)s" $@
+osascript -e "tell application \"Music\" to add POSIX file \"${TEMP}/$(ls $TEMP | head -1)\""
+rm -r $TEMP

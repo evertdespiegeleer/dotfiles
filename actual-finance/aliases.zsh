@@ -1,0 +1,1 @@
+alias fin="echo \"Listening on http://localhost:5006\" && docker run --rm --pull=always -p 5006:5006 -v ~/Documents/finance/actualapp/data:/data --name my_actual_budget actualbudget/actual-server:latest"

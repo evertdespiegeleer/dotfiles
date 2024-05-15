@@ -1,2 +1,3 @@
 @rightcrowd:registry=https://gitlab.com/api/v4/packages/npm/
 //gitlab.com/api/v4/packages/npm/:_authToken=${GITLAB_API_ACCESS_TOKEN}
+//gitlab.com/api/v4/projects/rightcrowd/ui-components/packages/npm/:_authToken=${GITLAB_API_ACCESS_TOKEN}

@@ -31,7 +31,8 @@ There's a few special files in the hierarchy.
 
 ## dependencies
 
-Make sure curl is available before proceeding.
+It is assumed zsh is installed and is set up as the default shell.
+Curl has to be installed
 
 ## install
 

@@ -51,6 +51,9 @@ fi
 
 # Install homebrew
 $ZSH/homebrew/install.sh 2>&1
+# Use ZSH
+# Ensure homebrew path is sourced
+source $ZSH/homebrew/path.zsh
 
 # Upgrade homebrew
 echo "› brew update"
