@@ -83,6 +83,7 @@ cask 'pronterface'
 cask 'inkscape'
 cask 'glance-chamburr'
 cask 'openscad'
+cask 'monitorcontrol'
 # Dev stuff
 cask 'visual-studio-code'
 cask 'docker'
