@@ -25,3 +25,5 @@ alias gac='git add -A && git commit -m'
 alias ge='git-edit-new'
 
 alias gcaz='git add -A && cz commit'
+
+alias gcazp='git add -A && cz commit && git pull --rebase && git push'

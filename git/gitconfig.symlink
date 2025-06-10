@@ -17,6 +17,7 @@
 [core]
         excludesfile = ~/.gitignore
         editor = nano
+        ignorecase = false
 [apply]
         whitespace = nowarn
 [mergetool]
